@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Q1.TwoSum.cs" />
+    <Compile Include="Q2.AddTwoNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
