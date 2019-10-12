@@ -19,12 +19,12 @@ namespace RayXu.LeetCode.CmdApp
         {
             // create a dictionary to store the num and the position
             // may contains same num at different position
-            Dictionary<int, HashSet<int>> dic = new Dictionary<int, HashSet<int>>();
+            Dictionary<int, List<int>> dic = new Dictionary<int, List<int>>();
             for (int i = 0; i < nums.Length; i++)
             {
                 if (!dic.ContainsKey(nums[i]))
                 {
-                    dic.Add(nums[i], new HashSet<int> { i });
+                    dic.Add(nums[i], new List<int> { i });
                 }
                 else
                 {
@@ -32,32 +32,32 @@ namespace RayXu.LeetCode.CmdApp
                 }
             }
 
-        foreach (var num in dic)
-        {
-            // subValue = target - firstValue
-            int subValue = target - num.Key;
-
-            if (dic.ContainsKey(subValue))
+            foreach (var num in dic)
             {
-                HashSet<int> subIdxs = dic[subValue];
+                // subValue = target - firstValue
+                int subValue = target - num.Key;
 
-                // firstValue = subValue
-                if (num.Key == subValue)
+                if (dic.ContainsKey(subValue))
                 {
-                    if (subIdxs.Count > 1)
+                    List<int> subIdxs = dic[subValue];
+
+                    // firstValue = subValue
+                    if (num.Key == subValue)
                     {
-                        return subIdxs.Take(2).ToArray();
+                        if (subIdxs.Count > 1)
+                        {
+                            return subIdxs.Take(2).ToArray();
+                        }
+                    }
+                    else
+                    {
+                        return new[] { num.Value.First(), subIdxs.First() };
                     }
                 }
-                else
-                {
-                    return new[] { num.Value.First(), subIdxs.First() };
-                }
             }
-        }
 
-        // not found
-        return null;
+            // not found
+            return null;
         }
     }
 }
