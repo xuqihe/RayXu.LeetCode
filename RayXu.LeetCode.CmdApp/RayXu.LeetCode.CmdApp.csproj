@@ -50,6 +50,7 @@
     <Compile Include="Q3.LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Q4.MedianOfTwoSortedArrays.cs" />
     <Compile Include="Q5.LongestPalindromicSubstring.cs" />
+    <Compile Include="Q6.ZigZagConversion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
