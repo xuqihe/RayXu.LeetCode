@@ -48,6 +48,7 @@
     <Compile Include="Q1.TwoSum.cs" />
     <Compile Include="Q2.AddTwoNumbers.cs" />
     <Compile Include="Q3.LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="Q4.MedianOfTwoSortedArrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
