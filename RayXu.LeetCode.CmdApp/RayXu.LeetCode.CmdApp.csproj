@@ -52,6 +52,7 @@
     <Compile Include="Q5.LongestPalindromicSubstring.cs" />
     <Compile Include="Q6.ZigZagConversion.cs" />
     <Compile Include="Q7.ReverseInteger.cs" />
+    <Compile Include="Q8.StringToInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
