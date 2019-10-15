@@ -51,6 +51,7 @@
     <Compile Include="Q4.MedianOfTwoSortedArrays.cs" />
     <Compile Include="Q5.LongestPalindromicSubstring.cs" />
     <Compile Include="Q6.ZigZagConversion.cs" />
+    <Compile Include="Q7.ReverseInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
