@@ -45,11 +45,15 @@
   <ItemGroup>
     <Compile Include="BaseModel.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Q1.TwoSum.cs" />
-    <Compile Include="Q2.AddTwoNumbers.cs" />
-    <Compile Include="Q3.LongestSubstringWithoutRepeatingCharacters.cs" />
-    <Compile Include="Q4.MedianOfTwoSortedArrays.cs" />
-    <Compile Include="Q5.LongestPalindromicSubstring.cs" />
+    <Compile Include="Q1-Q9\Q1.TwoSum.cs" />
+    <Compile Include="Q1-Q9\Q2.AddTwoNumbers.cs" />
+    <Compile Include="Q1-Q9\Q3.LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="Q1-Q9\Q4.MedianOfTwoSortedArrays.cs" />
+    <Compile Include="Q1-Q9\Q5.LongestPalindromicSubstring.cs" />
+    <Compile Include="Q1-Q9\Q6.ZigZagConversion.cs" />
+    <Compile Include="Q1-Q9\Q7.ReverseInteger.cs" />
+    <Compile Include="Q1-Q9\Q8.StringToInteger.cs" />
+    <Compile Include="Q1-Q9\Q9.PalindromeNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
