@@ -54,6 +54,7 @@
     <Compile Include="Q1-Q9\Q7.ReverseInteger.cs" />
     <Compile Include="Q1-Q9\Q8.StringToInteger.cs" />
     <Compile Include="Q1-Q9\Q9.PalindromeNumber.cs" />
+    <Compile Include="Q10-Q99\Q11.ContainerWithMostWater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

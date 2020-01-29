@@ -44,24 +44,5 @@ namespace RayXu.LeetCode.CmdApp
 
             return true;
         }
-
-        public bool IsPalindrome2(int x)
-        {
-            if (x < 0)
-            {
-                return false;
-            }
-
-            string num = x.ToString();
-            for (int i = 0, j = num.Length - 1; i <= j; i++, j--)
-            {
-                if (num[i] != num[j])
-                {
-                    return false;
-                }
-            }
-
-            return true;
-        }
     }
 }
