@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RayXu.LeetCode.CmdApp.Q10_Q99
+namespace RayXu.LeetCode.CmdApp
 {
     partial class LeetCode
     {
