@@ -8,8 +8,18 @@ namespace RayXu.LeetCode.CmdApp
 {
     public class ListNode
     {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
+        public int Val { get; set; }
+        public ListNode Next { get; set; }
+
+        public ListNode(int val = 0)
+        {
+            this.Val = val;
+        }
+
+        public ListNode(int val = 0, ListNode next = null)
+        {
+            this.Val = val;
+            this.Next = next;
+        }
     }
 }

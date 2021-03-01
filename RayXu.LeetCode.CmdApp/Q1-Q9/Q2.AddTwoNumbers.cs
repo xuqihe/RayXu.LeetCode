@@ -28,13 +28,13 @@ namespace RayXu.LeetCode.CmdApp
                 int value2 = 0;
                 if (l1 != null)
                 {
-                    value1 = l1.val;
-                    l1 = l1.next;
+                    value1 = l1.Val;
+                    l1 = l1.Next;
                 }
                 if (l2 != null)
                 {
-                    value2 = l2.val;
-                    l2 = l2.next;
+                    value2 = l2.Val;
+                    l2 = l2.Next;
                 }
 
                 // sum with digit
@@ -51,12 +51,12 @@ namespace RayXu.LeetCode.CmdApp
 
                 // create the value node, move the point to the higher digit
                 ListNode node = new ListNode(sum);
-                p.next = node;
-                p = p.next;
+                p.Next = node;
+                p = p.Next;
             }
 
             // remove the first empty node
-            result = result.next;
+            result = result.Next;
             return result;
         }
     }
