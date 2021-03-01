@@ -56,9 +56,15 @@
     <Compile Include="Q1-Q9\Q9.PalindromeNumber.cs" />
     <Compile Include="Q10-Q99\Q10.RegularExpressionMatching.cs" />
     <Compile Include="Q10-Q99\Q11.ContainerWithMostWater.cs" />
-    <Compile Include="Q10-Q99\Q12.Integer.To.Roman.cs" />
-    <Compile Include="Q10-Q99\Q13.Roman.To.Integer.cs" />
+    <Compile Include="Q10-Q99\Q12.IntegerToRoman.cs" />
+    <Compile Include="Q10-Q99\Q13.RomanToInteger.cs" />
     <Compile Include="Q10-Q99\Q14.LongestCommonPrefix.cs" />
+    <Compile Include="Q10-Q99\Q15.3Sum.cs" />
+    <Compile Include="Q10-Q99\Q16.3SumClosest.cs" />
+    <Compile Include="Q10-Q99\Q17.LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="Q10-Q99\Q19.RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="Q10-Q99\Q20.ValidParentheses.cs" />
+    <Compile Include="Q10-Q99\Q21.MergeTwoSortedLists.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
