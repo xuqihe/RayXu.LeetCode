@@ -63,6 +63,7 @@
     <Compile Include="Q10-Q99\Q16.3SumClosest.cs" />
     <Compile Include="Q10-Q99\Q17.LetterCombinationsOfAPhoneNumber.cs" />
     <Compile Include="Q10-Q99\Q19.RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="Q10-Q99\Q20.ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
